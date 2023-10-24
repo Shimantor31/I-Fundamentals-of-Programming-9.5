@@ -4,3 +4,4 @@ void printArray(const int array[], int size);
 int findPositiveIndices(const int array[], int size, int positiveIndices[]);
 void printFirstPositiveElement(const int array[], int index);
 void printPositiveIndicesReverse(const int positiveIndices[], int count);
+void drawCircle(int radius);

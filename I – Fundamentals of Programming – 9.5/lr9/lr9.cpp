@@ -60,4 +60,13 @@ int main() {
     delete[] originalArray;
     delete[] positiveIndices;
 
+    cout << "\033[2J\033[1;1H";
+
+    // 3
+
+    cout << "Enter a radius: ";
+    cin >> n;
+    drawCircle(n);
+
+    system("pause");
 }

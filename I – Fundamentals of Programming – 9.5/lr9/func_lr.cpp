@@ -45,3 +45,21 @@ void printPositiveIndicesReverse(const int positiveIndices[], int count) {
     }
     cout << endl;
 }
+
+void drawCircle(int radius) {
+    int centerX = 10;
+    int centerY = 10;
+
+    for (int y = 0; y <= 20; ++y) {
+        for (int x = 0; x <= 20; ++x) {
+            double distance = sqrt((x - centerX) * (x - centerX) + (y - centerY) * (y - centerY));
+            if (abs(distance - radius) < 1.5) {
+                cout << "*";
+            }
+            else {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
+}
