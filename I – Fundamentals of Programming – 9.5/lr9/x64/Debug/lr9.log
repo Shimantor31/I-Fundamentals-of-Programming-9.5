@@ -1,0 +1,6 @@
+﻿  func_lr.cpp
+  lr9.cpp
+E:\Materials\Documents\Учёба\I\ОП\Код\lr9\lr9\lr9.cpp(7,12): warning C4101: 'minValue': unreferenced local variable
+E:\Materials\Documents\Учёба\I\ОП\Код\lr9\lr9\lr9.cpp(7,22): warning C4101: 'maxValue': unreferenced local variable
+  Generating Code...
+  lr9.vcxproj -> E:\Materials\Documents\Учёба\I\ОП\Код\lr9\x64\Debug\lr9.exe
